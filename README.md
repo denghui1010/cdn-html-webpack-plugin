@@ -1,5 +1,7 @@
 ## cdn-html-webpack-plugin
 
+[![npm][npm]][npm-url]
+
 ### 功能
 
 使生成的index.html文件使用cdn的域名地址来加载资源
@@ -94,3 +96,6 @@ out
     </body> 
 </html>
 ```
+
+[npm]: https://img.shields.io/npm/v/cdn-html-webpack-plugin.svg
+[npm-url]: https://www.npmjs.com/package/cdn-html-webpack-plugin
