@@ -2,24 +2,24 @@
 
 # cdn-html-webpack-plugin
 
-[![npm package][npm]][npm-url]
+[![npm][npm]][npm-url]
 [![node][node]][node-url]
 
-### 功能
+## 功能
 
 使生成的index.html文件使用cdn域名地址来加载资源
 
-### 依赖
+## 依赖
 
 本插件依赖于 [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
 
-### 安装
+## 安装
 
 ```bash
 npm install cdn-html-webpack-plugin --save-dev
 ```
 
-### 使用
+## 使用
 
 #### 1. 绝对路径模式。此模式下，index.html文件中的所有相对路径将被替换为配置的绝对路径
 
@@ -106,7 +106,7 @@ out
 </html>
 ```
 
-### License
+## License
 [MIT](https://opensource.org/licenses/mit-license.php)
 
 
