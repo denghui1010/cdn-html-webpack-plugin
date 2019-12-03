@@ -1,25 +1,25 @@
 <div align="right"><strong>🇨🇳<a href="./README-cn.md">中文</a></strong> | <strong>🇬🇧English</strong></div>
 
-## cdn-html-webpack-plugin
+# cdn-html-webpack-plugin
 
 [![npm][npm]][npm-url]
 [![node][node]][node-url]
 
-### About
+## About
 
 Make the generated index.html file use the cdn host to load resources.
 
-### Requirement
+## Requirement
 
 This plugin depends on [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
 
-### Installation
+## Installation
 
 ```bash
 npm install cdn-html-webpack-plugin --save-dev
 ```
 
-### Usage
+## Usage
 
 #### 1. Absolute path mode. All relative paths in the index.html file will be replaced with the configured absolute path.
 
@@ -106,7 +106,7 @@ out
 </html>
 ```
 
-### License
+## License
 [MIT](https://opensource.org/licenses/mit-license.php)
 
 [npm]: https://img.shields.io/npm/v/cdn-html-webpack-plugin.svg
