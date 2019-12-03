@@ -1,3 +1,5 @@
+<div align="right"><strong>🇨🇳中文</strong> | <strong><a href="./README-en.md">🇬🇧English</a></strong></div>
+
 ## cdn-html-webpack-plugin
 
 [![npm][npm]][npm-url]
