@@ -1,16 +1,23 @@
 <div align="right"><strong>🇨🇳中文</strong> | <strong>🇬🇧<a href="./README.md">English</a></strong></div>
 
-## cdn-html-webpack-plugin
+# cdn-html-webpack-plugin
 
-[![npm][npm]][npm-url]
+[![npm package][npm]][npm-url]
+[![node][node]][node-url]
 
 ### 功能
 
 使生成的index.html文件使用cdn域名地址来加载资源
 
-### tips
+### 依赖
 
 本插件依赖于 [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
+
+### 安装
+
+```bash
+npm install cdn-html-webpack-plugin --save-dev
+```
 
 ### 使用
 
@@ -99,5 +106,13 @@ out
 </html>
 ```
 
+### License
+[MIT](https://opensource.org/licenses/mit-license.php)
+
+
 [npm]: https://img.shields.io/npm/v/cdn-html-webpack-plugin.svg
 [npm-url]: https://www.npmjs.com/package/cdn-html-webpack-plugin
+
+[node]: https://img.shields.io/node/v/cdn-html-webpack-plugin.svg
+[node-url]: https://nodejs.org
+
