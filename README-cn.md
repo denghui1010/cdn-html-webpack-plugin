@@ -1,20 +1,20 @@
-<div align="right"><strong>🇨🇳<a href="./README.md">中文</a></strong> | <strong>🇬🇧English</strong></div>
+<div align="right"><strong>🇨🇳中文</strong> | <strong>🇬🇧<a href="./README.md">English</a></strong></div>
 
 ## cdn-html-webpack-plugin
 
 [![npm][npm]][npm-url]
 
-### Function
+### 功能
 
-Make the generated index.html file use the cdn host to load resources.
+使生成的index.html文件使用cdn域名地址来加载资源
 
-### Tips
+### tips
 
-This plugin depends on [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
+本插件依赖于 [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
 
-### Use
+### 使用
 
-#### 1. Absolute path mode. All relative paths in the index.html file will be replaced with the configured absolute path.
+#### 1. 绝对路径模式。此模式下，index.html文件中的所有相对路径将被替换为配置的绝对路径
 
 ```javascript
 const CdnHtmlWebpackPlugin = require("cdn-html-webpack-plugin");
@@ -56,7 +56,7 @@ out
 </html>
 ```
 
-#### 2. Base tag mode. A [&lt;base&gt;](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/base) tag will be injected on the top of the &lt;head&gt; tag in the index.html file. Then the browser will use the configured path to resolve all relative paths.
+#### 2. base标签模式。此模式下，将在index.html的&lt;head&gt;标签的顶部增加一个[&lt;base&gt;](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/base)标签，浏览器随后将使用配置的路径来解析所有的相对路径
 
 ```javascript
 const CdnHtmlWebpackPlugin = require("cdn-html-webpack-plugin");
