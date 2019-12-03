@@ -1,0 +1,31 @@
+{
+  "name": "cdn-html-webpack-plugin",
+  "version": "1.0.0",
+  "description": "cdn html webpack plugin",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liudenghui <9798291@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/denghui1010/cdn-html-webpack-plugin",
+  "repository": "https://github.com/denghui1010/cdn-html-webpack-plugin.git",
+  "bugs": "https://github.com/denghui1010/cdn-html-webpack-plugin/issues",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "path",
+    "cdn-html-webpack-plugin",
+    "html-webpack-plugin",
+    "cdn"
+  ],
+  "peerDependencies": {
+    "webpack": "^3.0.0 || ^4.0.0"
+  }
+}
